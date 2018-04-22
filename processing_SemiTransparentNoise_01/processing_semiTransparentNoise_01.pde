@@ -15,8 +15,8 @@ void draw(){
   //fill(0);
   //text(floor(frameRate) + " fps", 0, 10);
   
-  fill(190);
-  text("Is this\nthe end?", w-55,h-20);
+  //fill(190);
+  //text("Is this\nthe end?", w-55,h-20);
   //text("Is this\nthe end?", 30,200, -5);
   
   for(int x = 0; x < w / scale; x++){
@@ -25,4 +25,6 @@ void draw(){
       rect(x*scale,y*scale,scale,scale);
     }
   }
+  
+  //saveFrame("frames/####.png");
 }
